@@ -51,6 +51,7 @@
                     v-for="(media, index) in [...options.images, ...options.videos]"
                     class="mx-1 h-1.5 w-1.5 cursor-pointer rounded-full"
                     :class="{ 'bg-navyBlue': index === Math.abs(currentIndex), 'opacity-30 bg-gray-500': index !== Math.abs(currentIndex) }"
+                    role="button"
                 >
                 </div>
             </div>
