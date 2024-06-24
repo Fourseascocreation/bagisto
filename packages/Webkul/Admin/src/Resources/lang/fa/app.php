@@ -813,7 +813,8 @@ return [
                 ],
 
                 'categories' => [
-                    'title' => 'دسته‌بندی‌ها',
+                    'category-details' => 'برای دریافت زیرپوشه‌ها روی پوشه‌ها کلیک کنید',
+                    'title'            => 'دسته‌بندی‌ها',
                 ],
 
                 'images' => [
@@ -1240,6 +1241,7 @@ return [
                 'back-btn'                 => 'بازگشت',
                 'banner'                   => 'بنر',
                 'banner-size'              => 'نسبت ابعاد بنر (1320px X 300px)',
+                'category-details'         => 'برای دریافت زیرپوشه‌ها روی پوشه‌ها کلیک کنید',
                 'description'              => 'توضیحات',
                 'description-and-images'   => 'توضیحات و تصاویر',
                 'description-only'         => 'توضیحات فقط',
@@ -1272,6 +1274,7 @@ return [
                 'back-btn'                 => 'بازگشت',
                 'banner'                   => 'بنر',
                 'banner-size'              => 'نسبت ابعاد بنر (1320px X 300px)',
+                'category-details'         => 'برای دریافت زیرپوشه‌ها روی پوشه‌ها کلیک کنید',
                 'description'              => 'توضیحات',
                 'description-and-images'   => 'توضیحات و تصاویر',
                 'description-only'         => 'توضیحات فقط',

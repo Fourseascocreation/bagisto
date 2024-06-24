@@ -813,7 +813,8 @@ return [
                 ],
 
                 'categories' => [
-                    'title' => 'Kategoriler',
+                    'category-details' => 'Alt klasörleri almak için klasörlere tıklayın',
+                    'title'            => 'Kategoriler',
                 ],
 
                 'images' => [
@@ -1240,6 +1241,7 @@ return [
                 'back-btn'                 => 'Geri',
                 'banner'                   => 'Banner',
                 'banner-size'              => 'Banner boyut oranı (1320px X 300px)',
+                'category-details'         => 'Alt klasörleri almak için klasörlere tıklayın',
                 'description'              => 'Açıklama',
                 'description-and-images'   => 'Açıklama ve Resimler',
                 'description-only'         => 'Sadece Açıklama',
@@ -1272,6 +1274,7 @@ return [
                 'back-btn'                 => 'Geri',
                 'banner'                   => 'Banner',
                 'banner-size'              => 'Banner boyut oranı (1320px X 300px)',
+                'category-details'         => 'Alt klasörleri almak için klasörlere tıklayın',
                 'description'              => 'Açıklama',
                 'description-and-images'   => 'Açıklama ve Resimler',
                 'description-only'         => 'Sadece Açıklama',

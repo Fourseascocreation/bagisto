@@ -813,7 +813,8 @@ return [
                 ],
 
                 'categories' => [
-                    'title' => 'Categorieën',
+                    'category-details' => 'Klik op mappen om submap te krijgen',
+                    'title'            => 'Categorieën',
                 ],
 
                 'images' => [
@@ -1240,6 +1241,7 @@ return [
                 'back-btn'                 => 'Terug',
                 'banner'                   => 'Banner',
                 'banner-size'              => 'Banner verhouding (1320px X 300px)',
+                'category-details'         => 'Klik op mappen om submap te krijgen',
                 'description'              => 'Beschrijving',
                 'description-and-images'   => 'Beschrijving en Afbeeldingen',
                 'description-only'         => 'Alleen Beschrijving',
@@ -1272,6 +1274,7 @@ return [
                 'back-btn'                 => 'Terug',
                 'banner'                   => 'Banner',
                 'banner-size'              => 'Banner verhouding (1320px X 300px)',
+                'category-details'         => 'Klik op mappen om submap te krijgen',
                 'description'              => 'Beschrijving',
                 'description-and-images'   => 'Beschrijving en Afbeeldingen',
                 'description-only'         => 'Alleen Beschrijving',

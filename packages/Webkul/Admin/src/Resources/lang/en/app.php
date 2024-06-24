@@ -813,7 +813,8 @@ return [
                 ],
 
                 'categories' => [
-                    'title' => 'Categories',
+                    'category-details' => 'Click on folders to get Sub folder',
+                    'title'            => 'Categories',
                 ],
 
                 'images' => [
@@ -1240,6 +1241,7 @@ return [
                 'back-btn'                 => 'Back',
                 'banner'                   => 'Banner',
                 'banner-size'              => 'Banner aspect ration (1320px X 300px)',
+                'category-details'         => 'Click on folders to get Sub folder',
                 'description'              => 'Description',
                 'description-and-images'   => 'Description and Images',
                 'description-only'         => 'Description Only',
@@ -1272,6 +1274,7 @@ return [
                 'back-btn'                 => 'Back',
                 'banner'                   => 'Banner',
                 'banner-size'              => 'Banner aspect ration (1320px X 300px)',
+                'category-details'         => 'Click on folders to get Sub folder',
                 'description'              => 'Description',
                 'description-and-images'   => 'Description and Images',
                 'description-only'         => 'Description Only',
