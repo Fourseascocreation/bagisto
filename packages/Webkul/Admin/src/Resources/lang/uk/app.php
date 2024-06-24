@@ -3309,6 +3309,7 @@ return [
 
         'view' => [
             'all-channels'  => 'Усі канали',
+            'back-btn'      => 'Назад',
             'day'           => 'День',
             'end-date'      => 'Дата закінчення',
             'export-csv'    => 'Експорт у форматі CSV',

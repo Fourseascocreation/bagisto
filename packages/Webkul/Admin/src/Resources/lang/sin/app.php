@@ -3309,6 +3309,7 @@ return [
 
         'view' => [
             'all-channels'  => 'සියලු චැනල්',
+            'back-btn'      => 'ආපසු',
             'day'           => 'දිනය',
             'end-date'      => 'අවසන් දිනය',
             'export-csv'    => 'CSV අපනයය',
