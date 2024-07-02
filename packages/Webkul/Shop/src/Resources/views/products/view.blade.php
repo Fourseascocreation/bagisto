@@ -324,7 +324,13 @@
                                 <!-- Rating -->
                                 {!! view_render_event('bagisto.shop.products.rating.before', ['product' => $product]) !!}
 
-                                @if ($totalRatings = $reviewHelper->getTotalRating($product))
+                                @php
+                                    $total = core()->getConfigData('catalog.products.review.summary') == 'count_of_stars' 
+                                                ? $reviewHelper->getTotalRating($product) 
+                                                : $reviewHelper->getTotalReviews($product);
+                                @endphp
+
+                                @if ($total)
                                     <!-- Scroll To Reviews Section and Activate Reviews Tab -->
                                     <div
                                         class="mt-1 w-max cursor-pointer max-sm:mt-1.5"
@@ -335,7 +341,7 @@
                                         <x-shop::products.ratings
                                             class="transition-all hover:border-gray-400 max-sm:px-3 max-sm:py-1"
                                             :average="$avgRatings"
-                                            :total="$totalRatings"
+                                            :total="$total"
                                             ::rating="true"
                                         />
                                     </div>

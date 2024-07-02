@@ -599,6 +599,20 @@ return [
                 'title'   => 'admin::app.configuration.index.catalog.products.review.allow-customer-review',
                 'type'    => 'boolean',
                 'default' => true,
+            ], [
+                'name'    => 'summary',
+                'title'   => 'admin::app.configuration.index.catalog.products.review.summary',
+                'type'    => 'select',
+                'default' => 'count_of_reviews',
+                'options' => [
+                    [
+                        'title' => 'admin::app.configuration.index.catalog.products.review.display_start_count',
+                        'value' => 'count_of_stars',
+                    ], [
+                        'title' => 'admin::app.configuration.index.catalog.products.review.display_review_count',
+                        'value' => 'count_of_reviews',
+                    ],
+                ],
             ],
         ],
     ], [

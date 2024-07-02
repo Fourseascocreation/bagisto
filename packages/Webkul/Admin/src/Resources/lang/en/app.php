@@ -3560,6 +3560,9 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Allow Customer Review',
                         'allow-guest-review'    => 'Allow Guest Review',
+                        'display_review_count'  => 'Display the review count for ratings.',
+                        'display_start_count'   => 'Display the star count in ratings.',
+                        'summary'               => 'Summary',
                         'title'                 => 'Review',
                         'title-info'            => 'Evaluation or assessment of something, often involving opinions and feedback.',
                     ],
