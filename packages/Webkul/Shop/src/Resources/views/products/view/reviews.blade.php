@@ -183,7 +183,12 @@
                                     </div>
 
                                     <p class="text-base text-zinc-500 max-sm:text-sm">
-                                        {{ $reviewHelper->getTotalRating($product) }}
+                                        {{
+                                            core()->getConfigData('catalog.products.review.summary') == 'count_of_stars' 
+                                                ? $reviewHelper->getTotalRating($product)
+                                                : $reviewHelper->getTotalReviews($product)
+                                        }}
+
                                         @lang('shop::app.products.view.reviews.ratings')
                                     </p>
                                 </div>

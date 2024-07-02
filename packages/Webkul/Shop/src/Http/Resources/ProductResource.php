@@ -50,7 +50,9 @@ class ProductResource extends JsonResource
             'price_html'  => $productTypeInstance->getPriceHtml(),
             'ratings'     => [
                 'average' => $this->reviewHelper->getAverageRating($this),
-                'total'   => $this->reviewHelper->getTotalRating($this),
+                'total'   => core()->getConfigData('catalog.products.review.summary') == 'count_of_stars'
+                            ? $this->reviewHelper->getTotalRating($this)
+                            : $this->reviewHelper->getTotalReviews($this),
             ],
         ];
     }

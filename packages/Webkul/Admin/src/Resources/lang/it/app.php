@@ -3560,6 +3560,9 @@ return [
                     'review' => [
                         'allow-customer-review' => 'Consenti recensioni dei clienti',
                         'allow-guest-review'    => 'Consenti recensioni degli ospiti',
+                        'display_review_count'  => 'Visualizza il numero di revisioni per le valutazioni.',
+                        'display_start_count'   => 'Visualizza il numero di stelle nelle valutazioni.',
+                        'summary'               => 'Riepilogo',
                         'title'                 => 'Recensione',
                         'title-info'            => 'Valutazione o valutazione di qualcosa, spesso coinvolgendo opinioni e feedback.',
                     ],
